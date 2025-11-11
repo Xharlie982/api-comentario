@@ -11,7 +11,7 @@ provider:
   environment:
     TABLE_NAME: ${sls:stage}-t_comentarios
     # --- INICIO DE LA MODIFICACIÓN ---
-    BUCKET_NAME: ${sls:stage}-bucket-ingesta-comentarios
+    BUCKET_NAME: ${sls:stage}-bucket-ingesta-comentarios-${self:org}
     # --- FIN DE LA MODIFICACIÓN ---
 
 functions:
